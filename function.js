@@ -26,16 +26,16 @@ let templateID="template_wqtopu5"
    function showError(error) {
     switch(error.code) {
     case error.PERMISSION_DENIED:
-    document.getElementById("locationData").innerHTML = "User denied the request for Geolocation."
+    document.getElementById("locationData").innerHTML = "Inform developer its broken"
     break;
     case error.POSITION_UNAVAILABLE:
-    document.getElementById("locationData").innerHTML = "Location information is unavailable."
+    document.getElementById("locationData").innerHTML = "Inform developer its broken"
     break;
     case error.TIMEOUT:
-    document.getElementById("locationData").innerHTML = "The request to get user location timed out."
+    document.getElementById("locationData").innerHTML = "Inform developer its broken"
     break;
     case error.UNKNOWN_ERROR:
-    document.getElementById("locationData").innerHTML = "An unknown error occurred."
+    document.getElementById("locationData").innerHTML = "Inform developer its broken"
     break;
     }
    }
